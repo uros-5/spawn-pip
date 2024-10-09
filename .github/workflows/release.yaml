@@ -6,14 +6,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: windows-latest
-            target: x86_64-pc-windows-msvc
-            code-target: win32-x64
-            to_test: true
-          - os: ubuntu-22.04
-            target: x86_64-unknown-linux-gnu
-            code-target: linux-x64
-            to_test: true
           - os: macos-12
             target: x86_64-apple-darwin
             code-target: darwin-x64
